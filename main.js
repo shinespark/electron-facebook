@@ -12,9 +12,10 @@ app.on('window-all-closed', function() {
 });
 
 app.on('ready', function() {
-  mainWindow = new BrowserWindow({width: 980, height: 780, 'node-integration': false});
-  // mainWindow.loadUrl('file://' + __dirname + '/index.html');
-  mainWindow.loadUrl('https://www.facebook.com');
+  // mainWindow = new BrowserWindow({width: 980, height: 780, 'node-integration': false});
+  mainWindow = new BrowserWindow({width: 980, height: 780});
+  mainWindow.loadUrl('file://' + __dirname + '/index.html');
+  // mainWindow.loadUrl('https://www.facebook.com');
   // mainWindow.openDevTools();
   mainWindow.on('closed', function() {
     mainWindow = null;
