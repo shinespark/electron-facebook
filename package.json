@@ -1,5 +1,5 @@
 {
-  "name": "electron-facebook",
+  "name": "electronic-facebook",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shinespark/electron-facebook.git"
+    "url": "git+https://github.com/shinespark/electronic-facebook.git"
   },
   "author": "",
   "bugs": {
-    "url": "https://github.com/shinespark/electron-facebook/issues"
+    "url": "https://github.com/shinespark/electronic-facebook/issues"
   },
-  "homepage": "https://github.com/shinespark/electron-facebook#readme"
+  "homepage": "https://github.com/shinespark/electronic-facebook#readme"
 }
